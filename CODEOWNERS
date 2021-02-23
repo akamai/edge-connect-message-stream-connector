@@ -1,0 +1,6 @@
+# CODEOWNERS
+# edge-connect-message-stream-connector
+# Owners: Akamai IoT Developers <dl-iec-devrel-admins@akamai.com>
+# Primary contact: Blazej Bucko <bbucko@akamai.com>
+
+*       @bbucko @tweglinski

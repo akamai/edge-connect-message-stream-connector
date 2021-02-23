@@ -1,0 +1,4 @@
+{
+  "host": "<host_here>",
+  "password": "<jwt_here>"
+}

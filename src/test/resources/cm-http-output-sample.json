@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "clientId": "iec-fe-198.18.233.25",
+      "payload": "MWE7RkU7MTU3MTIyOTAzMjtQdWJsaXNoZXJfN2VCcVJLb0U7Rjc7cHViVGVzdDMvUWR0V21rVGQ3SS9RZHRXbWtUZDdJL2VuZC9RZHRXbWtUZDdJMWE7RkU7MTU3MTIyOTAzMTtQdWJsaXNoZXJfejR6aG04WjU7Rjc7LyRTWVMvdG9waWM=",
+      "topicSequenceNumber": 6866
+    },
+    {
+      "clientId": "iec-fe-198.18.233.25",
+      "payload": "MWE7RkU7MTU3MTIyOTA1NjtQdWJsaXNoZXJfdEM1NnkydXQ7Rjc7ZW5kMmVuZC90b3BpYw==",
+      "topicSequenceNumber": 6867
+    }
+  ]
+}
