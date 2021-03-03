@@ -9,20 +9,26 @@
     <version>1.0</version>
 
     <properties>
+        <jdk.version>8</jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <license.licenseName>apache_v2</license.licenseName>
         <license.inceptionYear>2020</license.inceptionYear>
         <license.organizationName>Akamai Technologies, Inc.</license.organizationName>
         <license.projectName>${project.artifactId}</license.projectName>
-        <jdk.version>8</jdk.version>
+
         <maven.compiler.version>3.1</maven.compiler.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.plugin>3.8.0</maven.compiler.plugin>
         <maven.surfire.plugin>3.0.0-M4</maven.surfire.plugin>
+        <maven.license.plugin>2.0.0</maven.license.plugin>
+
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.28</slf4j.version>
+
         <jackson.version>2.10.0</jackson.version>
         <junit.jupiter.version>5.5.2</junit.jupiter.version>
         <mockito.version>2.28.2</mockito.version>
+
         <kinesis.sdk.version>0.14.0</kinesis.sdk.version>
         <storage.blob.sdk.version>12.10.0</storage.blob.sdk.version>
     </properties>
@@ -126,7 +132,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>license-maven-plugin</artifactId>
-                <version>2.0.0</version>
+                <version>${maven.license.plugin}</version>
                 <executions>
                     <execution>
                         <id>first</id>
