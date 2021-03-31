@@ -35,10 +35,8 @@ import java.util.concurrent.TimeUnit;
 
 public class SampleKinesisApp {
 
-    public static String KINESIS_STREAM_NAME = "CM";
-
     public static void main(String[] args) {
-        final BasicRecordProducer<SimpleRecord> producer = new KinesisRecordProducer(KINESIS_STREAM_NAME);
+        final BasicRecordProducer<SimpleRecord> producer = new KinesisRecordProducer();
 
         // initialize Blob Storage producer
         if (producer.initialize()) {
